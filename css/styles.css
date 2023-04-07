@@ -8,7 +8,9 @@
     --ocian: #404BBF;
     --slate: #434455;
 }
-
+img {
+    display: block;
+}
 .body {
     font-family: "Roboto", sans-serif;
     color: var(--slate);
@@ -23,6 +25,7 @@
     color: var(--brend);
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .link {
@@ -47,6 +50,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark);
+    padding: 24px 0;
 }
 
 .menu:hover {
@@ -312,11 +316,7 @@
 .nav-nav {
     display: flex;
     align-items: center;
-    margin-right: 76px;
     display: flex;
-}
-.menua {
-    padding: 24px 0
 }
 .mainsection-two {
     padding: 120px 0;
