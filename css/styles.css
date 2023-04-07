@@ -65,6 +65,10 @@
 .adress-list {
     font-style: normal;
 }
+.list-three {
+    display: flex;
+    gap: 24px;
+}
 
 .mail {
     font-style: normal;
@@ -207,10 +211,12 @@
     line-height: 1.11;
     text-align: center;
     color: var(--dark);
+    margin-bottom: 72px;
 }
 
 .team {
     background-color: var(--cold);
+    padding: 120px 0;
 }
 
 .teamtext {
@@ -222,10 +228,12 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    margin-bottom: 72px;
 }
 
 .back {
     background-color: var(--cold);
+    width: calc((100% - 72px) / 4);
 }
 
 .name {
@@ -317,6 +325,15 @@
 .two {
     gap: 24px;
 }
-.section-tow-Strategy {
-   
+.jobe {
+    padding-bottom: 120px;
+}
+.comp {
+    width: calc((100% - 3 * 16px) / 3);
+} 
+.add {
+width: calc((100% - 3 * 16px) / 3);
+} 
+.mob {
+width: calc((100% - 3 * 16px) / 3);
 }
