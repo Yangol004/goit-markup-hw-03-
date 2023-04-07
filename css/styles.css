@@ -135,6 +135,7 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--dark);
+    margin-bottom: 8px;
 
 }
 .strategytext {
@@ -317,6 +318,5 @@
     gap: 24px;
 }
 .section-tow-Strategy {
-    width: calc((100% - 72px) / 4);
-    margin-bottom: 8px;
+   
 }
