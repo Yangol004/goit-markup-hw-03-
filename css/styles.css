@@ -332,8 +332,11 @@ img {
     width: calc((100% - 3 * 16px) / 3);
 } 
 .add {
-width: calc((100% - 3 * 16px) / 3);
+    width: calc((100% - 3 * 16px) / 3);
 } 
 .mob {
-width: calc((100% - 3 * 16px) / 3);
+    width: calc((100% - 3 * 16px) / 3);
+}
+.section-tow-Strategy {
+    width: calc((100% - 72px) / 4);
 }
