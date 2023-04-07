@@ -313,12 +313,10 @@
     padding: 120px 0;
 
 }
-.arks {
-    margin-bottom: 8px;
-}
 .two {
     gap: 24px;
 }
 .section-tow-Strategy {
     width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;
 }
