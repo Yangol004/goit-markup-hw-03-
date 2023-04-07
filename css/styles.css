@@ -61,7 +61,6 @@
     list-style: none;
     gap: 40px;
     display: flex;
-    gap: 40px;
 }
 .adress-list {
     font-style: normal;
@@ -92,8 +91,9 @@
 }
 
 .mainsection {
-
     background: var(--dark);
+    padding: 188px 0;
+
 }
 
 .maintext {
@@ -103,8 +103,8 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
+    max-width: 496px;
 }
-
 .btn {
     cursor: pointer;
     background: var(--brend);
@@ -115,16 +115,20 @@
     line-height: 24px;
     letter-spacing: 0.04em;
     color: var(--white);
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:var(--btn);
+    border-radius: 4px;
+    cursor: pointer;
 }
-
 .btn:hover {
     background-color: var(--ocian);
 }
-
 .btn:focus {
     background-color: var(--ocian);
 }
-
 .strategy {
     font-weight: 500;
     font-size: 20px;
@@ -133,7 +137,6 @@
     color: var(--dark);
 
 }
-
 .strategytext {
     font-weight: 400;
     font-size: 16px;
@@ -141,7 +144,6 @@
     letter-spacing: 0.02em;
     color: var(--slate);
 }
-
 .punctuality {
     font-weight: 500;
     font-size: 20px;
@@ -149,7 +151,6 @@
     letter-spacing: 0.02em;
     color: var(--dark);
 }
-
 .punctualitytext {
     font-weight: 400;
     font-size: 16px;
@@ -157,7 +158,6 @@
     letter-spacing: 0.02em;
     color: var(--slate);
 }
-
 .diligence {
     font-weight: 500;
     font-size: 20px;
@@ -309,3 +309,8 @@
 .menua {
     padding: 24px 0
 }
+.mainsection-two {
+    padding: 120px 0;
+
+}
+
